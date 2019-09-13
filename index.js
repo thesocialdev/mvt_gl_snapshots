@@ -32,21 +32,19 @@ var options = {
 };
 
 var map = new mbgl.Map(options);
-
-map.load(require('./style.json'));
-
-let width = 250*ratio;
-let height = 250*ratio;
-
-map.render({zoom: 8, center: [-5.801,13.079],width, height}, function(err, buffer) {
+let geojson = JSON.parse(fs.readFileSync('./polygon.json'));
+map.load(require('./bright.json'));
+let width = 600;
+let height = 500;
+map.render({zoom: 13, center: [88.393078, 22.576846], width, height}, function(err, buffer) {
     if (err) throw err;
 
     map.release();
 
     var image = sharp(buffer, {
         raw: {
-            width,
-            height,
+            width: width * ratio,
+            height: height * ratio,
             channels: 4
         }
     });

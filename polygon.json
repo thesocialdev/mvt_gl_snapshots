@@ -1,0 +1,61 @@
+{
+        "features": [
+            {
+                "geometry": {
+                    "coordinates": [
+                        [
+                            [
+                                25.7331,
+                                62.2351
+                            ],
+                            [
+                                25.7313,
+                                62.2345
+                            ],
+                            [
+                                25.7291,
+                                62.2341
+                            ],
+                            [
+                                25.7246,
+                                62.2337
+                            ],
+                            [
+                                25.7251,
+                                62.2351
+                            ],
+                            [
+                                25.7269,
+                                62.2366
+                            ],
+                            [
+                                25.7329,
+                                62.2394
+                            ],
+                            [
+                                25.7373,
+                                62.2377
+                            ],
+                            [
+                                25.7331,
+                                62.2351
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                },
+                "properties": {
+                    "ID": "182",
+                    "Kohde": "Jyväskylän yliopiston alue",
+                    "Kunta": "Jyväskylä",
+                    "Maakunta": "Keski-Suomi",
+                    "description": "Rky ID: [http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=182 182]<br>Map: [[Data:Rky/182_Jyväskylän yliopiston alue.map]]<br>",
+                    "lat": 62.2366,
+                    "lon": 25.7309,
+                    "title": "Jyväskylän yliopiston alue"
+                },
+                "type": "Feature"
+            }
+        ],
+        "type": "FeatureCollection"
+}
