@@ -1,0 +1,26 @@
+{
+    "version": 8,
+    "name": "Raster",
+    "sources": {
+        "Raster": {
+            "tiles": ["http://a.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"],
+            "type": "raster",
+            "tileSize": 256
+
+        }
+    },
+    "layers": [
+        {
+            "id": "raster",
+            "type": "raster",
+            "source": "Raster",
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "raster-opacity": 1
+            }
+        }
+    ],
+    "id": "test-raster"
+}

@@ -1,0 +1,26 @@
+{
+    "version": 8,
+    "name": "Raster",
+    "sources": {
+        "Raster": {
+            "tiles": ["https://cdn4.apple-mapkit.com/ti/tile?style=0&size=1&x={x}&y={y}&z={z}&scale=1&&accessKey=YOUR_KEY_HERE"],
+            "type": "raster",
+            "tileSize": 256
+
+        }
+    },
+    "layers": [
+        {
+            "id": "raster",
+            "type": "raster",
+            "source": "Raster",
+            "layout": {
+                "visibility": "visible"
+            },
+            "paint": {
+                "raster-opacity": 1
+            }
+        }
+    ],
+    "id": "test-raster"
+}

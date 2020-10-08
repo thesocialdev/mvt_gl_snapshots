@@ -49,7 +49,7 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=VJrAN6WMJCyY46cgUbcn"
+      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key=YOUR_KEY"
     },
     "kartotherian": {
       "type": "vector",
@@ -62,7 +62,7 @@
     }
   },
   "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=VJrAN6WMJCyY46cgUbcn",
+  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key=YOUR_KEY",
   "layers": [
     {
       "id": "background",

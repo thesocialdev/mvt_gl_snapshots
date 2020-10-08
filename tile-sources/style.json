@@ -2,7 +2,7 @@
   "version": 8,
   "name": "Empty",
   "sources": {
-    "mapbox": {
+    "wikimedia": {
       "type": "vector",
       "maxzoom": 15,
       "tiles": [
@@ -87,7 +87,7 @@
         {
             "id": "landuse_overlay_national_park",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "landuse_overlay",
             "filter": [
                 "==",
@@ -106,7 +106,7 @@
         {
             "id": "landuse_park",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "landuse",
             "filter": [
                 "==",
@@ -124,7 +124,7 @@
         {
             "id": "landuse_cemetery",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "landuse",
             "filter": [
                 "==",
@@ -142,7 +142,7 @@
         {
             "id": "landuse_hospital",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "landuse",
             "filter": [
                 "==",
@@ -160,7 +160,7 @@
         {
             "id": "landuse_school",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "landuse",
             "filter": [
                 "==",
@@ -178,7 +178,7 @@
         {
             "id": "landuse_wood",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "landuse",
             "filter": [
                 "==",
@@ -221,7 +221,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "waterway",
             "paint": {
                 "line-color": "#a0c8f0",
@@ -255,7 +255,7 @@
                 "river"
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "waterway_river",
             "paint": {
                 "line-color": "#a0c8f0",
@@ -290,7 +290,7 @@
                 "canal"
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "waterway_stream_canal",
             "paint": {
                 "line-color": "#a0c8f0",
@@ -313,7 +313,7 @@
         {
             "id": "water",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "water",
             "paint": {
                 "fill-color": "#a0c8f0"
@@ -366,7 +366,7 @@
                 "Polygon"
             ],
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "aeroway_fill",
             "paint": {
                 "fill-color": "#f0ede9",
@@ -394,7 +394,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "aeroway_runway",
             "paint": {
                 "line-color": "#f0ede9",
@@ -434,7 +434,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "aeroway_taxiway",
             "paint": {
                 "line-color": "#f0ede9",
@@ -457,7 +457,7 @@
         {
             "id": "building",
             "type": "fill",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "building",
             "paint": {
                 "fill-color": {
@@ -546,7 +546,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_motorway_link_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -602,7 +602,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_service_track_casing",
             "paint": {
                 "line-color": "#cfcdca",
@@ -652,7 +652,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_link_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -704,7 +704,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_street_casing",
             "paint": {
                 "line-color": "#cfcdca",
@@ -767,7 +767,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_secondary_tertiary_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -811,7 +811,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_trunk_primary_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -862,7 +862,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "tunnel_motorway_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -897,7 +897,7 @@
         {
             "id": "tunnel_path_pedestrian",
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "road",
             "filter": [
                 "all",
@@ -1154,7 +1154,7 @@
         {
             "id": "tunnel_major_rail",
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "road",
             "filter": [
                 "all",
@@ -1252,7 +1252,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_motorway_link_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -1306,7 +1306,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_service_track_casing",
             "paint": {
                 "line-color": "#cfcdca",
@@ -1356,7 +1356,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_link_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -1418,7 +1418,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_street_casing",
             "paint": {
                 "line-color": "#cfcdca",
@@ -1484,7 +1484,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_secondary_tertiary_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -1531,7 +1531,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_trunk_primary_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -1586,7 +1586,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_motorway_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -1617,7 +1617,7 @@
         {
             "id": "road_path_pedestrian",
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "road",
             "filter": [
                 "all",
@@ -1875,7 +1875,7 @@
         {
             "id": "road_major_rail",
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "road",
             "filter": [
                 "all",
@@ -1970,7 +1970,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_motorway_link_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -2022,7 +2022,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_service_track_casing",
             "paint": {
                 "line-color": "#cfcdca",
@@ -2068,7 +2068,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_link_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -2120,7 +2120,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_street_casing",
             "paint": {
                 "line-color": "#cfcdca",
@@ -2183,7 +2183,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_secondary_tertiary_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -2227,7 +2227,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_trunk_primary_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -2277,7 +2277,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "bridge_motorway_casing",
             "paint": {
                 "line-color": "#e9ac77",
@@ -2308,7 +2308,7 @@
         {
             "id": "bridge_path_pedestrian",
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "road",
             "filter": [
                 "all",
@@ -2565,7 +2565,7 @@
         {
             "id": "bridge_major_rail",
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "source-layer": "road",
             "filter": [
                 "all",
@@ -2659,7 +2659,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "admin_level_3",
             "paint": {
                 "line-color": "#9e9cab",
@@ -2717,7 +2717,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "admin_level_2",
             "paint": {
                 "line-color": "#9e9cab",
@@ -2768,7 +2768,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "admin_level_2_disputed",
             "paint": {
                 "line-color": "#9e9cab",
@@ -2818,7 +2818,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "admin_level_3_maritime",
             "paint": {
                 "line-color": "#a0c8f0",
@@ -2871,7 +2871,7 @@
                 ]
             ],
             "type": "line",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "admin_level_2_maritime",
             "paint": {
                 "line-color": "#a0c8f0",
@@ -2916,7 +2916,7 @@
                 "Point"
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "water_label",
             "paint": {
                 "text-color": "#74aee9",
@@ -2961,7 +2961,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "poi_label_4",
             "paint": {
                 "text-color": "#666",
@@ -3007,7 +3007,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "poi_label_3",
             "paint": {
                 "text-color": "#666",
@@ -3053,7 +3053,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "poi_label_2",
             "paint": {
                 "text-color": "#666",
@@ -3085,7 +3085,7 @@
                 "mapbox:group": "1444849297111.495"
             },
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "rail_station_label",
             "paint": {
                 "text-color": "#666",
@@ -3132,7 +3132,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "poi_label_1",
             "paint": {
                 "text-color": "#666",
@@ -3180,7 +3180,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "airport_label",
             "paint": {
                 "text-color": "#666",
@@ -3222,7 +3222,7 @@
                 "ferry"
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_label",
             "paint": {
                 "text-color": "#765",
@@ -3268,7 +3268,7 @@
                 6
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "road_label_highway_shield",
             "paint": {},
             "source-layer": "road_label"
@@ -3311,7 +3311,7 @@
                 "islet"
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "place_label_other",
             "paint": {
                 "text-color": "#633",
@@ -3352,7 +3352,7 @@
                 "village"
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "place_label_village",
             "paint": {
                 "text-color": "#333",
@@ -3393,7 +3393,7 @@
                 "town"
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "place_label_town",
             "paint": {
                 "text-color": "#333",
@@ -3434,7 +3434,7 @@
                 "city"
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "place_label_city",
             "paint": {
                 "text-color": "#333",
@@ -3483,7 +3483,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_line_4",
             "paint": {
                 "text-color": "#74aee9",
@@ -3534,7 +3534,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_4",
             "paint": {
                 "text-color": "#74aee9",
@@ -3584,7 +3584,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_line_3",
             "paint": {
                 "text-color": "#74aee9",
@@ -3635,7 +3635,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_point_3",
             "paint": {
                 "text-color": "#74aee9",
@@ -3685,7 +3685,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_line_2",
             "paint": {
                 "text-color": "#74aee9",
@@ -3736,7 +3736,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_point_2",
             "paint": {
                 "text-color": "#74aee9",
@@ -3786,7 +3786,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_line_1",
             "paint": {
                 "text-color": "#74aee9",
@@ -3842,7 +3842,7 @@
                 ]
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "marine_label_point_1",
             "paint": {
                 "text-color": "#74aee9",
@@ -3884,7 +3884,7 @@
                 4
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "country_label_4",
             "paint": {
                 "text-color": "#334",
@@ -3926,7 +3926,7 @@
                 3
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "country_label_3",
             "paint": {
                 "text-color": "#334",
@@ -3968,7 +3968,7 @@
                 2
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "country_label_2",
             "paint": {
                 "text-color": "#334",
@@ -4010,7 +4010,7 @@
                 1
             ],
             "type": "symbol",
-            "source": "mapbox",
+            "source": "wikimedia",
             "id": "country_label_1",
             "paint": {
                 "text-color": "#334",
